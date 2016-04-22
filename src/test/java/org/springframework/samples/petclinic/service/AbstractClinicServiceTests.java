@@ -50,12 +50,12 @@ import org.springframework.transaction.annotation.Transactional;
  * @author Juergen Hoeller
  * @author Sam Brannen
  * @author Michael Isvy
- * @author  Randy was here
  */
 public abstract class AbstractClinicServiceTests {
 
     @Autowired
     protected ClinicService clinicService;
+    private String randy = 'hak';
 
     @Test
     public void shouldFindOwnersByLastName() {
