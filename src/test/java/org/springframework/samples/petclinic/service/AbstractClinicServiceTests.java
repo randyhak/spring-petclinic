@@ -55,7 +55,7 @@ public abstract class AbstractClinicServiceTests {
 
     @Autowired
     protected ClinicService clinicService;
-    private String randy = 'hak';
+    private String randy = "hak";
 
     @Test
     public void shouldFindOwnersByLastName() {
